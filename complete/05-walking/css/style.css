@@ -1,0 +1,18 @@
+#dude{
+  position: absolute;
+  background: url("../../_shared/img/walking.png") no-repeat;
+  width: 184px;
+  height: 325px;
+  animation:  walk 1s steps(8) infinite,
+              walk2 6s infinite linear;
+}
+
+@keyframes walk{
+  from { background-position:  0px; }
+  to { background-position: -1472px; }
+}
+
+@keyframes walk2{
+  from { left: -184px }
+  to { left: 100% }
+}

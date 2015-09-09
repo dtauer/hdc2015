@@ -1,0 +1,21 @@
+div{
+  width: 100px;
+  height: 100px;
+  float: left;
+  background-color: rgb(29,115,128);
+  color: rgb(255,255,255);
+  border-radius: 25%;
+  margin: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition-property: transform;
+  transition-duration: 2s;
+  /*transition: all 2s;*/
+}
+
+div:hover{
+  transform: translateY(200px);
+  background-color: rgb(242,175,136);
+}

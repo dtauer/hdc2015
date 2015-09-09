@@ -1,0 +1,31 @@
+body {background-color:black;}
+img {margin:10px;}
+#trans3DDemo {
+	position:absolute;
+	top:70px;
+	left:240px;
+	width:240px;
+}
+
+#trans3DBoxes div {
+	position:relative;
+	width:60px;
+	height:60px;
+	background-color:#f60;
+	margin-right:10px;
+	margin-bottom:10px;
+	border:solid 2px #FFF;
+	display:inline-block;
+}
+
+#nav {
+  position:absolute;
+  width:600px;
+  left:50px;
+  top:400px;
+}
+
+#play_btn, .play {
+	float:right;
+	margin-top:20px;
+}

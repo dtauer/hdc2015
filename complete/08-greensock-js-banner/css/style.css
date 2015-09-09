@@ -1,0 +1,199 @@
+body{
+  margin:20px;
+  background-color:#555;
+}
+
+h1, h2, h3, h4, p, div, span{
+  font-family: 'Asap', sans-serif;
+  margin:0px;
+  padding:0px;
+}
+
+h1{
+  text-align:center;
+  color:#81CD00;
+  font-size:80px;
+  background-color:#000;
+}
+
+h2{
+  font-size:40px;
+  padding-left:14px;
+  position:relative;
+  width:286px;
+}
+
+h3{
+  padding-left:18px;
+  background-color:#81CD00;
+  font-size:40px;
+  position:relative;
+  left:122px; 
+  top:74px;
+  width:296px;
+}
+
+h4{
+  position:absolute;
+  font-size:70px;
+  color:#444;
+  top:40px;
+  left:120px; 
+}
+
+#banner{
+  position:absolute;
+  width:300px;
+  height:250px;
+  overflow:hidden;
+  visibility:hidden;
+}
+
+#wrapper{
+  position:relative;
+  width:300px;
+  height:250px;
+  background-color:#fff;
+  border: solid 1px #333;
+}
+
+.slide{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:250px;
+}
+
+#stunningWrap{
+  width:300px;
+  height:60px;
+  overflow:hidden;
+}
+
+#deviceHead{
+  font-size:36px;
+  font-weight:200;
+  width:300px;
+  text-align:center;
+  color:#777;
+  margin:16px 0px 10px;
+}
+
+#mobile, #desktop, #laptop{
+ top:70px;
+}
+
+#desktop, #laptop, #iphone, #tablet, .learnmore{
+  position:absolute;
+  display:block;
+  border: solid 1px transparent;
+  -webkit-backface-visibility:hidden;
+}
+
+#desktop{
+  width:199px;
+  height:181px;
+  left:49px;
+}
+
+#laptop{
+  width:292px;
+  height:161px;
+  left:3px;  
+}
+
+#mobile{
+  position:absolute;
+  width:199px;
+  height:160px;
+  display:block;
+  left:51px;    
+ /*background-color:red;*/
+}
+
+#iphone{
+   left:132px;
+   top:29px;
+}
+
+#tablet{
+  z-index:1;
+  background-color:#222;  background:url(../../_shared/img/logoman_tablet_bg.png) #222 no-repeat 110px 123px;
+  width:282px;
+  height:372px;
+  border: solid 39px black;
+  border-radius:30px;
+  left:-80px;
+  top:-160px;
+}
+
+#nestedAnimation{
+  position:absolute;
+  left:-10px;
+  top:61px;
+}
+
+#tablet_end_screen{
+  position:absolute;
+  width:300px;
+  height:250px;
+  background:url(../../_shared/img/end.jpg);
+}
+
+#logoman{
+  position:absolute;
+  left:20px;
+  top:80px; 
+  visibility:hidden;
+}
+
+#learnMore{
+  position:absolute;
+  top:190px;
+  left:70px;
+  width:150px;
+  padding:5px;
+  text-align:center;
+  font-weight:600;
+  font-size:24px;
+  border-radius:8px;
+  color:#010;
+}
+
+#replay{
+  position:absolute;
+  left:276px;
+  top:225px;
+  width:19px;
+  height:19px;
+  cursor:pointer;
+}
+
+#slider{
+  width:280px; 
+  margin-top:80px; 
+  margin-left:10px;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+.gradient{  
+  background: #9af600; /* Old browsers */
+  background: -moz-linear-gradient(top,  #9af600 0%, #a0fd00 50%, #90e700 51%, #a0fe00 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9af600), color-stop(50%,#a0fd00), color-stop(51%,#90e700), color-stop(100%,#a0fe00)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #9af600 0%,#a0fd00 50%,#90e700 51%,#a0fe00 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #9af600 0%,#a0fd00 50%,#90e700 51%,#a0fe00 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #9af600 0%,#a0fd00 50%,#90e700 51%,#a0fe00 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #9af600 0%,#a0fd00 50%,#90e700 51%,#a0fe00 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9af600', endColorstr='#a0fe00',GradientType=0 ); /* IE6-9 */
+}
+
+.ui-slider .ui-slider-handle { 
+  width: 40px !important; 
+  margin-left: -20px !important; 
+  height:40px !important; 
+  margin-top:-10px !important;
+}

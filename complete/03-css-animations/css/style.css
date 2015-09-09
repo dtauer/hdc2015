@@ -1,0 +1,30 @@
+div{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(29,115,128);
+  color: rgb(255,255,255);
+  border-radius: 25%;
+  margin: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  animation-name: let-it-roll;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+}
+
+div:nth-of-type(3) {
+  animation-delay:1s;
+}
+
+@keyframes let-it-roll {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  100% {
+    transform: translateX(30em) rotate(720deg);
+  }
+}
